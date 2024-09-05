@@ -1,13 +1,22 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
 .hi{
     display: flex;
     justify-content: space-evenly;
 }
-#home{
-    background-image: url("https://png.pngtree.com/thumb_back/fh260/background/20210324/pngtree-abstract-playful-portfolio-pink-memphis-image_593415.jpg");
-    height: 500px;
-    width: 1500px;
-    margin-bottom: 30px;
+.body{
+    background-color: white;
 }
+nav{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+
 ul{
     display: flex;
     justify-content: center;
@@ -19,8 +28,17 @@ li> a{
     color: black;
 }
 header{
+    /* display: flex;
+    justify-content: center; */
+    background: gray;
+    height: 500px;
+    width: 1500px;
+    /* margin-bottom: 30px; */
+    height: 80vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
+    /* align-items: center; */
 }
 button{
     background-color: purple;
@@ -38,4 +56,79 @@ button{
     width:150px ;
     padding: 10px;
     text-align: center;
+}
+#about{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 50vh;
+    /* padding: 0 200px; */
+    /* background-color: red; */
+}
+a:hover{ 
+  color:red;
+     
+}
+footer{
+    background-color: gray;
+
+}
+.box{
+    background-color:red;
+    color:white;
+    transform:rotate(-90deg);
+    height:50px;
+    width: 125px;
+}
+.boxs{
+    background-color:red;
+    color:white;
+    transform:rotats(88deg)
+}
+.name{
+    background: white;
+    color:black;
+    height: ;
+    border:none;
+} 
+.id{
+    background-color: red;
+}
+
+#aboutme{
+    background-color:red;
+    
+    
+}
+.skills .skill{
+    margin-bottom: 15px;
+}
+.skills .progress{
+    background-attachment: #3c3c70;
+    border-radius: 25px;
+    height:10px;
+}
+.skills .progress-bar{
+    height: 10px;
+    background-color: #f5a623;
+    border-radius: 25px;
+}
+.ids{
+    background-color:red ;
+    height:150px;
+}
+.img{
+    border-top:1px solid white;
+    text-align: center;
+}
+.bx-main{
+    background-color: red;
+    height: 100px;
+}
+.main{
+    background-color: gray;
+    height: 50vh;
+}
+.percentage{
+    text-align: right;
 }
