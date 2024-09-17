@@ -21,6 +21,7 @@ li a{
 }
 .hi{
     display: flex;
+    width: 1500px;
     background-color: gray;
     justify-content: space-around;
     height:100vh;
@@ -94,9 +95,9 @@ li> a{
 header{
  
     background: gray;
-    height: 50px;
+    height: 10px;
     width: 1500px;
-    
+    margin: 0px;
     height: 10vh;
     display: flex;
     flex-direction: column;
@@ -169,6 +170,7 @@ footer{
 }
 #skills{
     text-align: center;
+    width: 1500px;
 }
 
 #aboutme{
@@ -226,6 +228,13 @@ footer{
     
 }
 .blue{
+    display: flex;
+    justify-content: space-evenly;
     height: 10px;
     width: 20px;
+    padding: 20px;
+    text-align: center;
+    margin: 150px;
+    margin-bottom: 60px;
+    gap: 50px;
 }
