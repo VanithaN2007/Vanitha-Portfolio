@@ -1,8 +1,69 @@
 *{
-    box-sizing: border-box;
+    box-sizing:border-box;
     margin: 0;
     padding: 0;
 }
+header{
+    background-color: gray;
+}
+
+nav ul{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    
+    gap: 20px;
+    list-style-type: none;
+}
+li a{
+    text-decoration: none;
+    color: white;
+}
+.hi{
+    display: flex;
+    background-color: gray;
+    justify-content: space-around;
+    height:100vh;
+   align-items: center
+}
+
+.intro{
+    margin:10% 5%;
+}
+skills{
+    height: 5vh;
+    padding: 50px;
+    margin: 80px;
+    
+    background-color: white;
+}
+
+.about{
+    height: 100vh;
+    background-color: gray;
+    text-align: center;
+    color: white;
+}
+.ids{
+    height: 100vh;
+    background-color: aqua;
+    text-align: center;
+}
+.projects{
+    height: 100vh;
+    text-align: center;
+    background-color: white;
+}
+#about{
+    display: flex;
+    justify-content: space-between;
+    padding: 20 ;
+}
+.cpy{
+    text-align: center;
+    padding: 20px 0;
+}
+    
 
 .hi{
     display: flex;
@@ -10,12 +71,14 @@
 }
 .body{
     background-color: white;
+    width: 100vw;
 }
 nav{
     display: flex;
     justify-content: space-evenly;
     
 }
+
 
 ul{
     display: flex;
@@ -26,15 +89,15 @@ li> a{
     text-decoration: none;
     margin: 10px;
     color: black;
+    
 }
 header{
-    /* display: flex;
-    justify-content: center; */
+ 
     background: gray;
-    height: 500px;
+    height: 50px;
     width: 1500px;
-    /* margin-bottom: 30px; */
-    height: 80vh;
+    
+    height: 10vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -57,6 +120,14 @@ button{
     padding: 10px;
     text-align: center;
 }
+.sub{
+    background-color: white;
+    text-align: center;
+    margin-top: 40px;
+
+
+
+}
 #about{
     display:flex;
     justify-content: space-around;
@@ -75,10 +146,12 @@ footer{
 }
 .box{
     background-color:red;
+    text-align: center;
     color:white;
     transform:rotate(-90deg);
     height:50px;
     width: 125px;
+   
 }
 .boxs{
     background-color:red;
@@ -88,47 +161,71 @@ footer{
 .name{
     background: white;
     color:black;
-    height: ;
     border:none;
 } 
 .id{
     background-color: red;
+    padding: 20px;
+}
+#skills{
+    text-align: center;
 }
 
 #aboutme{
-    background-color:red;
+    background-color:white;
+    text-align: center;
+    padding: 20px;
     
     
 }
 .skills .skill{
-    margin-bottom: 15px;
+    margin-top: 15px;
+    margin: 100hv;
+    text-align: center;
+    
+    
 }
 .skills .progress{
     background-attachment: #3c3c70;
     border-radius: 25px;
+    margin: 50px;
     height:10px;
+    margin-top: 50px;
 }
 .skills .progress-bar{
     height: 10px;
-    background-color: #f5a623;
+    background-color: purple;
     border-radius: 25px;
 }
 .ids{
     background-color:red ;
     height:150px;
+    padding:20px;
 }
 .img{
     border-top:1px solid white;
     text-align: center;
 }
 .bx-main{
-    background-color: red;
-    height: 100px;
+    background-color:white ;
+    height: 150px;
+    padding: 20px;
+    text-align: center;
 }
 .main{
     background-color: gray;
     height: 50vh;
+    padding:20px;
+
 }
 .percentage{
     text-align: right;
+}
+#home{
+    height: 100vh;
+    
+}
+.blue{
+    height: 10px;
+    width: 20px;
 }
