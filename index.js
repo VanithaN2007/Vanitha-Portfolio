@@ -377,16 +377,81 @@
 // }
 
 
-let a=2;
-while (a<=5){
-    console.log(a)
-    a=a+2;
-}
+// let a=2;
+// while (a<=5){
+//     console.log(a)
+//     a=a+2;
+// }
 
-function greet(name){
-    console.log('helo,$(namne)'):
-}
- function greetgoodafternoon(name){
-    console.log('good afternoon,$(name)')
- }
+// function greet(name){
+//     console.log('helo,$(namne)'):
+// }
+//  function greetgoodafternoon(name){
+//     console.log('good afternoon,$(name)')
+//  }
  
+// let num=[2,3,4,5,6]
+// for (i=0; i<=num.length;i++){
+//     console.log(num[i])
+// }
+
+// let car=["bwm","audi","toyoto","susuki","maruthi"]
+// console.log(car[1],car[3])
+
+
+// let bike=["hero","honda","ktm"]
+// bike[1]="tvs";
+// console.log(bike);
+
+
+// let nums=[2,4,6,8,10,7,4,2]
+// console.log(nums.length)
+
+// const person1={
+//     name:"vanitha",
+//     age:17,
+//     phone:"1234567890",
+// }
+// const person2={
+//     name:"hema",
+//     age:18,
+//     phone:"0987654321",
+// }
+// console.log(person2.name)
+// console.log(person1.phone)
+
+
+// let sum=0;
+// while(a<=b){
+//     if(a%2==0){
+//         sum= sum +a;
+//     }
+//     a++;
+// }
+// return sum;
+
+
+// let a=20;
+// sum=0;
+// for(i=1; i<=a; i++){
+//     if(i%2==0)
+//     sum=sum+i; 
+// }
+// console.log(sum)
+
+
+
+// function sum(n){
+
+//     let a=1;
+//     while(a<=n){
+//         console.log(a*3)
+//         a++;
+//     }
+// }
+// sum(3)
+
+function criket match( teamScore, targetScore, oversLeft)
+if (teamcore>=targetscore){
+
+}
