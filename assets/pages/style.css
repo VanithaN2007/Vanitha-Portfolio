@@ -4,7 +4,7 @@
     padding: 0;
 }
 header{
-    background-color: gray;
+    background-color: yellow;
     font-size: 20px;
 }
 
@@ -23,7 +23,7 @@ li a{
 .hi{
     display: flex;
     width: 1500px;
-    background-color: #e5e5e5;
+    background-color: #e5e5e5 ;
     justify-content: space-around;
     height:100vh;
     font-size: 30px;
@@ -113,6 +113,9 @@ button{
     background-color: red;
     color: white;
 }
+.botton{
+    padding: 10px;
+}
 .bx-main{
     display: flex;
     font-size: 30px;
@@ -151,7 +154,6 @@ a:hover{
 }
 footer{
     background-color: #e5e5e5;
-
 }
 .box{
     background-color:red;
@@ -159,14 +161,12 @@ footer{
     color:white;
     transform:rotate(-90deg);
     height:50px;
-    width: 125px;
-
-   
+    width: 125px; 
 }
 .boxs{
     background-color:red;
     color:white;
-    transform:rotats(88deg)
+
 }
 .name{
     background: white;
@@ -180,8 +180,7 @@ footer{
 #skills{
     text-align: center;
     font-size: 30px;
-    margin-top: 20px;
-    height: 500px;
+    height: 100vh;
     
    
 }
@@ -217,6 +216,11 @@ footer{
     height:150px;
     padding:20px;
 }
+.sufu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
 .img{
     border-top:1px solid white;
     text-align: center;
@@ -247,4 +251,5 @@ footer{
     margin: 150px;
     margin-bottom: 60px;
     gap: 50px;
+    
 }

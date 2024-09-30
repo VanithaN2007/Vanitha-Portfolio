@@ -442,16 +442,100 @@
 
 
 // function sum(n){
-
 //     let a=1;
 //     while(a<=n){
 //         console.log(a*3)
 //         a++;
 //     }
 // }
-// sum(3)
+// sum(4)
 
-function criket match( teamScore, targetScore, oversLeft)
-if (teamcore>=targetscore){
+// function criketMatch( teamScore, targetScore, oversLeft){
+// if (teamScore>=targetScore){
+//     console.log("team wins by dl method");
+//     }
+//     else if(teamScore<=targetScore){
+//     console.log("Match to be continued"); 
+//     }
+//     else{
+//     console.log("Team loses by DL method");}
+// }
+// criketMatch( 100, 200, 2)
 
+// cost person1=("html","css","js")
+// name
+
+
+
+// function letter(input){
+//     let list=["a","e","i","o","u","A","E","I","O","U"]
+//     if(list.includes(input)){
+//         console.log("The character is a vowel")
+//     }
+//     else{
+//         console.log("the character is a consonant")
+//     }
+// }
+// letter("a")
+
+// function number(a,b,c){
+//     if(a>b&&a>c){
+//         console.log(a)
+//     }
+//     else if(b>a&&b>c){
+//         console.log(b)
+//     }
+//     else(console.log(c))
+// }
+// number(10,30,5)
+
+
+// let array=[1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,]
+// let a=0;
+//     while(a< array.length){
+//     let i= array[a]
+//     if (i%5==0){
+//         console.log(i);
+//     }
+//     a++;
+//  }
+
+
+// function input(n){
+//     if(n%2==0){
+//         console.log("even")
+//     }
+//     else if(n%2==!0){
+//         console.log("odd")
+//     }
+//     else{console.log("not number")}
+//     }
+//     input(7);
+    
+    
+//     let print="g";
+//     if (print>="A"&&print<="z"){
+//         console.log("upper case")
+//     }
+//     else if(print>="a"&&print<="z"){
+//         console.log("lower")
+//     }
+//     else{console.log("not print")}
+    
+    
+function threeintegersnumber(a,b,c){
+    console.log(Math.min)(a,b,c)
 }
+threeintegersnumber(20,10,5);
+
+
+
+
+
+
+
+
+
+
+
+
