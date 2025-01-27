@@ -4,9 +4,9 @@
     padding: 0;
     scroll-behavior: smooth;
 }
-section{
+/* section{
     padding-top:2.5rem ;
-}
+} */
 header{
     background-color: yellow;
     font-size: 20px;
@@ -14,6 +14,7 @@ header{
     position: fixed;
     top: 0;
     left: 0;
+    z-index: 1;
 }
 
 nav ul{
@@ -40,14 +41,41 @@ li a{
 .intro{
     margin:10% 5%;
 }
-skills{
-    height: 5vh;
+#skills, #techSkills{
+    /* height: 5vh; */
     padding: 50px;
-    margin: 80px;
+    /* margin: 80px; */
     margin-left: 20px;
-    background-color: white;
+    margin-right: 0px;
+    background-color: #e5e5e5;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
 }
-
+#techSkills{
+    height: 100vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#contact{
+    background: #e5e5e5;
+}
+#skills{
+    background-color: #e5e5e5;
+margin: 0;
+}
+.skills{
+    display:flex;
+    flex-wrap: wrap;
+    gap: 50px;
+    justify-content: center;
+}
+.bx h2{
+    font-size:xx-large;
+    height: 100px;
+}
 
 .ids{
     height: 100vh;
@@ -55,14 +83,14 @@ skills{
     text-align: center;
 }
 #projects{
-    height: 100vh;
+    height: 93vh;
     text-align: center;
     font-size: 30px;
     background-color: #e5e5e5;
 }
 #about{
-    height: 100vh;
-    background-color: white;
+    height: 90vh;
+    background-color:#e5e5e5  ;
     text-align: center;
     font-size: 30px;
     color: black;
@@ -72,9 +100,17 @@ skills{
 }
 .cpy{
     text-align: center;
+    background-color: #e5e5e5 ;
     padding: 20px ;
     font-size: 20px;
     border-top: 1.5px solid white;
+}
+
+.bx-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 2rem;
 }
 
 .skillsImage{
@@ -87,9 +123,9 @@ skills{
     justify-content: space-evenly;
     
 }
-.body{
-    background-color: white;
-    width: 100vw;
+body{
+    /* background-color: white; */
+    /* width: 100vw; */
 }
 nav{
     display: flex;
@@ -109,6 +145,11 @@ li a{
     color: black;
     
 }
+h1{
+    text-align: center;
+    background-color: #e5e5e5;
+    font-size: 45px;
+}
 #skills h1{
     width: 90vw;
 }
@@ -126,7 +167,10 @@ header{
 }
 button{
     background-color: red;
+    height: 50px;
     color: white;
+    justify-content: center;
+    margin-left: 100px;
 }
 .botton{
     padding: 10px;
@@ -141,19 +185,17 @@ button{
     background-color: rgb(255, 140, 0) ;
     color: black;
     margin-top: 20px;
-    border-radius: 5px;
+    border-radius: 5px;main
     border: 1px solid rgb(255, 140, 0);
-    height:fit-content;
-    width:fit-content;
-    padding: 10px 30px;
+    height:70px;
+    width:300px;
+    /* padding: 10px 30px; */
     text-align: center;
     box-shadow: #101029 10px 10px 10px ;
 }
 .sub{
     text-align: center;
-    margin-top: 40px;
-
-
+    /* margin-top: 40px; */
 
 }
 #fruit{
@@ -199,8 +241,7 @@ footer{
 #skills{
     text-align: center;
     font-size: 30px;
-    height: 100vh;
-    
+    height: 120vh;
    
 }
 
@@ -214,11 +255,13 @@ footer{
 .skill{
     margin-top: 15px;
     margin: 100hv;
-    width: 70rem;
-    text-align: center; 
+    width: 500px;
+    position: relative;
+
+    /* text-align: center;  */
 }
 #skills{
-    width: 100vw;
+    /* width: 100vw; */
 }
 .skills .progress{
     background-attachment: #3c3c70;
@@ -226,10 +269,11 @@ footer{
     margin: 50px;
     height:10px;
     margin-top: 50px;
+    background-color: rgb(0, 1, 1);
 }
 .skills .progress-bar{
     height: 10px;
-    background-color: purple;
+    background-color:#ff0000;
     border-radius: 25px;
 }
 .ids{
@@ -243,11 +287,12 @@ footer{
     flex-direction: column;
     box-shadow: #30303f 0px 0px 10px;
     align-items: center;
-    width: fit-content;
-    height: fit-content;
-    padding: 40px;
-    border-radius: 6px;
+    width: 300px;
+    height: 250px;
+    /* padding: 40px; */
+    /* border-radius: 6px; */
 }
+
 .sufu:hover{
     transform:scale(1.01);
     transition: transform 0.5s;
@@ -259,16 +304,22 @@ footer{
     text-align: center;
 }
 .bx-main{
-    background-color:white ;
+    /* background-color:white ; */
     height: 250px;
-    padding: 80px;
+    /* padding: 80px; */
     text-align: center;
-    margin-top: 80px;
+
 }
 
 
 .percentage{
     text-align: right;
+    position: absolute;
+    left: 400px;
+    bottom: 50px;
+    color:#ff0000;
+    font-size: 18px;
+   
 }
 #home{
     height: 100vh;
@@ -287,3 +338,56 @@ footer{
     height: 20rem;
     width: 20rem;
 }
+.flex123{
+    display: flex;
+    justify-content: space-around;
+}
+.p{
+   font-size: 35px;
+   line-height: 50px;
+   
+}
+
+
+.Lifeskills{
+    height: 100vh;
+    background-color:  #e5e5e5;
+}
+
+
+
+.skills h3{
+    padding-left: 250px;
+    padding-top: 10px;
+    margin-top: 10px;
+}
+.skills h4{
+    padding-left: 250px;
+  padding-top: 100px;
+}
+.bx-main{
+    background-color: #e5e5e5;
+    height: 40vh;
+}
+.contact-form {
+    flex: 0 0 45%;
+    margin-top: 13rem;
+    margin-right: 6.5rem;
+    color: #fff;
+}
+.contact-form input, .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    background: burlywood;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+}
+#Englishskills{
+  
+}
+.span12{
+    color:#ff0000
+}
+
