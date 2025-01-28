@@ -52,6 +52,9 @@ li a{
     flex-direction: column;
     gap: 100px;
 }
+.title{
+    padding: 50px;
+}
 #techSkills{
     height: 100vh;
     text-align: center;
