@@ -372,7 +372,7 @@ footer{
 }
 .contact-form {
     flex: 0 0 45%;
-    margin-top: 13rem;
+    /* margin-top: 13rem; */
     margin-right: 6.5rem;
     color: #fff;
 }
@@ -389,4 +389,3 @@ footer{
 .span12{
     color:#ff0000
 }
-
