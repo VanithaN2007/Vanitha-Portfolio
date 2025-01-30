@@ -126,10 +126,7 @@ margin: 0;
     justify-content: space-evenly;
     
 }
-body{
-    /* background-color: white; */
-    /* width: 100vw; */
-}
+
 nav{
     display: flex;
     justify-content: space-evenly;
@@ -188,17 +185,16 @@ button{
     background-color: rgb(255, 140, 0) ;
     color: black;
     margin-top: 20px;
-    border-radius: 5px;main
-    border: 1px solid rgb(255, 140, 0);
+    border-radius: 5px;
+     border: 1px solid rgb(255, 140, 0);
     height:70px;
     width:300px;
     /* padding: 10px 30px; */
-    text-align: center;
-    box-shadow: #101029 10px 10px 10px ;
+    /* text-align: center; */
+    box-shadow: #101029 10px 10px 10px ; 
 }
 .sub{
-    text-align: center;
-    /* margin-top: 40px; */
+    text-align: center;    /* margin-top: 40px; */
 
 }
 #fruit{
@@ -263,9 +259,7 @@ footer{
 
     /* text-align: center;  */
 }
-#skills{
-    /* width: 100vw; */
-}
+
 .skills .progress{
     background-attachment: #3c3c70;
     border-radius: 25px;
@@ -387,9 +381,7 @@ footer{
     border-radius: 5px;
     color: #fff;
 }
-#Englishskills{
-  
-}
+
 .span12{
     color:#ff0000
 }
