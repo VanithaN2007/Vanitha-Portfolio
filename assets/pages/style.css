@@ -290,6 +290,9 @@ footer{
     /* padding: 40px; */
     /* border-radius: 6px; */
 }
+.fun{
+    margin-bottom: 2rem;
+}
 
 .sufu:hover{
     transform:scale(1.01);
