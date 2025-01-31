@@ -1,4 +1,4 @@
-pracitce// let a = prompt("enter any number:");
+// let a = prompt("enter any number:");
 // console.log("this numa:", a);
 
 

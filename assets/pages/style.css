@@ -57,7 +57,7 @@ li a{
 }
 #techSkills{
     height: 100vh;
-    text-align: center;
+    /* text-align: center; */
     display: flex;
     align-items: center;
     justify-content: center;
@@ -253,9 +253,10 @@ footer{
 }
 .skill{
     margin-top: 15px;
-    margin: 100hv;
+    margin-bottom: 120px;
     width: 500px;
     position: relative;
+
 
     /* text-align: center;  */
 }
@@ -263,13 +264,13 @@ footer{
 .skills .progress{
     background-attachment: #3c3c70;
     border-radius: 25px;
-    margin: 50px;
-    height:10px;
-    margin-top: 50px;
+   
+    height:15px;
+    
     background-color: rgb(0, 1, 1);
 }
 .skills .progress-bar{
-    height: 10px;
+    height: 15px;
     background-color:#ff0000;
     border-radius: 25px;
 }
@@ -317,7 +318,7 @@ footer{
     text-align: right;
     position: absolute;
     left: 400px;
-    bottom: 50px;
+    bottom: 60px;
     color:#ff0000;
     font-size: 18px;
    
@@ -361,6 +362,7 @@ footer{
     padding-left: 250px;
     padding-top: 10px;
     margin-top: 10px;
+    
 }
 .skills h4{
     padding-left: 250px;
@@ -388,4 +390,14 @@ footer{
 
 .span12{
     color:#ff0000
+}
+.tag{
+color:#ff0000
+}
+.contain{
+    display:flex;
+    gap:200px;
+}
+.skillname{
+    width:300px;
 }
