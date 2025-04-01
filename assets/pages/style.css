@@ -79,20 +79,26 @@ margin: 0;
     font-size:xx-large;
     height: 100px;
 }
-
+h2{
+    margin-top: 20px;
+}
 .ids{
     height: 100vh;
     background-color: aqua;
     text-align: center;
 }
-#projects{
-    height: 93vh;
+#projects, #Englishskills{
+    padding-top: 100px;
+    height: 100vh;
     text-align: center;
     font-size: 30px;
     background-color: #e5e5e5;
 }
+#Englishskills,#Lifeskills{
+    padding-top: 50px;
+}
 #about{
-    height: 90vh;
+    height: 100vh;
     background-color:#e5e5e5  ;
     text-align: center;
     font-size: 30px;
@@ -196,6 +202,10 @@ button{
 .sub{
     text-align: center;    /* margin-top: 40px; */
 
+}
+.sub h2{
+    margin-top: 0;
+    padding-top: 20px;
 }
 #fruit{
     display:flex;
