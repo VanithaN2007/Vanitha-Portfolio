@@ -411,3 +411,59 @@ color:#ff0000
 .skillname{
     width:300px;
 }
+
+
+
+/* Responsive Design for Mobile View */
+@media (max-width: 768px) {
+    .nav-bar ul {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 10px;
+    }
+  
+    .hi {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .hi img {
+      width: 90%;
+      height: auto;
+    }
+  
+    .flex123 {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .skills {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sufu {
+      width: 90%;
+      margin-bottom: 20px;
+    }
+  
+    .skillsImage {
+      width: 100%;
+      height: auto;
+    }
+  
+    .blue img {
+      width: 100%;
+      height: auto;
+      margin: 10px 0;
+    }
+  
+    .bx-main {
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  
