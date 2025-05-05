@@ -413,3 +413,87 @@ color:#ff0000
 }
 
 
+/* General Responsive Reset */
+* {
+    box-sizing: border-box;
+  }
+  
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+  }
+  
+  /* Make all images responsive */
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  /* Flex container stack on small screen */
+  .flex123 {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Skills section two columns to one */
+  .skills {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+  }
+  
+  .skills > div {
+    flex: 1 1 300px;
+  }
+  
+  /* Contact section spacing */
+  .contact-form input,
+  .contact-form textarea {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    font-size: 1em;
+  }
+  
+  /* Media Query for phones */
+  @media screen and (max-width: 768px) {
+    .nav-bar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .hi {
+      flex-direction: column;
+      text-align: center;
+      padding: 20px;
+    }
+  
+    .intro h1, .intro h2 {
+      font-size: 1.5em;
+    }
+  
+    .blue img {
+      width: 100%;
+      height: auto;
+    }
+  
+    .bx-main {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .sufu {
+      width: 100%;
+      text-align: center;
+      margin-bottom: 20px;
+    }
+  
+    .contact-form {
+      padding: 20px;
+    }
+  }
