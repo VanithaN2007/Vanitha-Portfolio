@@ -1,417 +1,357 @@
-<html>
-
-<!-- <head>
-
-  <title>my website</title>
-  
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
-    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
-    crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <link rel="stylesheet" href="assets/pages/style.css" />
-</head>  -->
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-  <title>my website</title>
+
+
+    <title>my website</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/...">
+    <link rel="stylesheet" href="assets/pages/style.css" />
+
+
+  <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/...">
+  <title>Vanitha Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="assets/pages/style.css" />
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+  
 </head>
 
 <body>
-  <header>
-    <nav class="nav-bar">
-      <h1>Van<span class="span12">i</span></h1>
-      <ul>
-        <li><a href="#home">Home</a></li>
-        <li><a href="#about">About</a></li>
-        <li><a href="#projects">Projects</a></li>
-        <li><a href="#Techskills">Tech Skills</a></li>
-        <li><a href="#Englishskills">English Skills</a></li>
-        <li><a href="#Lifeskills">Life Skills</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
-  </header>
   <section id="home">
-    <div class="hi">
-      <div class="intro">
-        <h1>Hello! I am</h1>
-        <h1>Vanitha</h1>
-        <h2>Quality Assurance</h2>
-        <div class="right-box">
-           
-          <a
-          href='https://docs.google.com/spreadsheets/d/1jT1UeG3pL9ffalQVLe0RLCNipWxq23fgm2wiPc4izXg/edit?gid=1268503108#gid=1268503108'><button>VIEW
-            MY PROJECT</button></a>
+    <nav class="nav-bar">
+        <h1>Van<span class="span12">i</span></h1>
+
+        <div class="hamburger" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#Techskills">Tech Skills</a></li>
+          <li><a href="#Englishskills">English Skills</a></li>
+          <li><a href="#Lifeskills">Life Skills</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+      
+    </section>
+  <header class="text-center py-5 bg-light">
+    <div class="container">     <div class="row align-items-center justify-content-center">
+        <div class="col-md-4">
+          <img src="assets/images/DSC08524-Enhanced-NR.jpg" alt="Vanitha" class="profile-img">
+        </div>
+        <div class="col-md-6">
+          <h1>Hello! I am <br><strong>Vanitha</strong></h1>
+          <h4>Quality Assurance</h4>
+          <a href='https://docs.google.com/spreadsheets/d/1jT1UeG3pL9ffalQVLe0RLCNipWxq23fgm2wiPc4izXg/edit?gid=1268503108#gid=1268503108' class="btn btn-danger mt-3">View My Projects</a>
+        </div>
+      </div>
+    </div>
+    
+  </header>
+
+  <section id="about" class="bg-white">
+    <div class="container text-center">
+      <h2>About <span class="text-danger">Me</span></h2>
+      <div class="row justify-content-center">
+        <div class="col-md-6">
+          <p>I am from Chennai. I am 17 years old. My father's name is Narayanan, and he is a painter by profession. My hobby is drawing. I finished 12th grade. Then I joined FSSA Academy because of financial problems. In the academy, I learned English, life skills, HTML, CSS, JavaScript, Python, and SQL. My short-term goal is to get placed in a good IT company. I am currently working in QA (Quality Assurance).</p>
+        </div>
+      </div>
+    </div>
+  </section>
 
 
+
+
+  <section id="projects" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-4">MY <span class="text-danger">PROJECT</span></h2>
+      <div class="row g-4">
+        <div class="col-md-4">
+          <img src="assets/images/Screenshot (17).png"alt="Project 1" class="skill-img img-fluid rounded mb-3">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/Screenshot (8).png" alt="Project 2" class="skill-img img-fluid rounded mb-3">
+        </div>
+        <div class="col-md-4">
+          <img src="assets/images/Screenshot (20).png" alt="Project 3" class="skill-img img-fluid rounded mb-3">
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <section id="Techskills" class="py-5 bg-light">
+    <div class="container">
+      <h2 class="text-center mb-5">TECH <span class="text-danger">SKILLS</span></h2>
+      <div class="row">
+
+        <div class="col-md-6">
+
+          <div class="mb-4">
+            <div class="d-flex justify-content-between">
+              <strong>HTML</strong><span>Intermediate</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-danger" style="width: 80%;">80%</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+              <span>Beginner</span><span>Intermediate</span><span>Expert</span>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="d-flex justify-content-between">
+              <strong>CSS</strong><span>Intermediate</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-warning" style="width: 65%;">65%</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+              <span>Beginner</span><span>Intermediate</span><span>Expert</span>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="d-flex justify-content-between">
+              <strong>JavaScript</strong><span>Intermediate</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-info" style="width: 62%;">62%</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+              <span>Beginner</span><span>Intermediate</span><span>Expert</span>
+            </div>
+          </div>
+        </div>
+  
+
+        <div class="col-md-6">
+
+          <div class="mb-4">
+            <div class="d-flex justify-content-between">
+              <strong>Manual Testing</strong><span>Intermediate</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-success" style="width: 62%;">62%</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+              <span>Beginner</span><span>Intermediate</span><span>Expert</span>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="d-flex justify-content-between">
+              <strong>Python</strong><span>Intermediate</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-secondary" style="width: 56%;">56%</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+              <span>Beginner</span><span>Intermediate</span><span>Expert</span>
+            </div>
+          </div>
+
+          <div class="mb-4">
+            <div class="d-flex justify-content-between">
+              <strong>SQL</strong><span>Intermediate</span>
+            </div>
+            <div class="progress">
+              <div class="progress-bar bg-primary" style="width: 52%;">52%</div>
+            </div>
+            <div class="d-flex justify-content-between mt-2">
+              <span>Beginner</span><span>Intermediate</span><span>Expert</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+
+  
+
+
+  <section id="Englishskills" class="py-5 bg-light">
+    <div class="container text-center">
+      <h2 class="mb-5">ENGLISH <span class="text-danger">SKILLS</span></h2>
+      <div class="row g-4">
+        
+        <div class="col-md-6 col-lg-3">
+        
+          <img src="assets/images/specking download (2).png" alt="Speaking Skill" class="skill-img img-fluid rounded mb-3">
+
+          <h4>Speaking</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
         </div>
         
+
+        <div class="col-md-6 col-lg-3">
+          <img src="assets/images/1000_F_274770438_Cg3qiCMyKb1KjXbuwTeqePAABMYzT8PV.jpg" alt="Listening Skill" class="skill-img img-fluid rounded mb-3">
+          <h4>Listening</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        
+
+        <div class="col-md-6 col-lg-3">
+          <img src="assets/images/reading images.png" alt="Reading Skill" class="skill-img img-fluid rounded mb-3">
+          <h4>Reading</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        
+
+        <div class="col-md-6 col-lg-3">
+          <img src="assets/images/writing img images.png" alt="Writing Skill" class="skill-img img-fluid rounded mb-3">
+          <h4>Writing</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
       </div>
-      <!-- <img src="assets/images/WhatsApp Image 2024-09-30 at 16.21.55_6803753c.jpg " alt="my images" height="500px"
-        width="500px" /> -->
-      <img src="assets/images/DSC08524-Enhanced-NR.jpg" alt="my images" height="500px" width="500px"
-        style="border-radius: 400px">
+    </div>
+  </section>
+  
+
+<section id="Lifeskills" style="padding-top: 10%;">
+    <div class="container text-center">
+      <h1 class="title mb-5">LIFE <span class="text-danger">SKILLS</span></h1>
+      <div class="row">
+        <div class="col-md-4 mb-4">
+          <img src="assets/images/adaplapty download (2).png" class="img-fluid rounded mb-3" style="height: 200px; object-fit: cover;">
+          <h4>Adaptability & Continuous Learning</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="assets/images/team work download.jpg" class="img-fluid rounded mb-3" style="height: 200px; object-fit: cover;">
+          <h4>Social Work</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+        <div class="col-md-4 mb-4">
+          <img src="assets/images/self download.jpg" class="img-fluid rounded mb-3" style="height: 200px; object-fit: cover;">
+          <h4>Self Management & Self Awareness</h4>
+          <div class="text-warning">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star-half-stroke"></i>
+            <i class="fa-regular fa-star"></i>
+            <i class="fa-regular fa-star"></i>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
 
-  <main>
-    <section id="about">
-      <h2>ABOUT <span class="span12">ME</span></h2>
-      <div class="flex123">
-        <div>
-          <img src="assets/images/DSC08524-Enhanced-NR.jpg" alt="my images" height="500px" width="500px"
-            style="border-radius: 100px">
+
+
+ 
+  <section id="contact">
+    <div class="container text-center">
+      <h2>Contact <span class="text-danger">Info</span></h2>
+      <div class="row justify-content-center">
+        <div class="col-md-4">
+          <p>T: +91 1234567890</p>
+          <p>E: vv2387656@gamil.com</p>
+          <p>A: Block C, Global Infocity Park, 40th St, Kodandarama Nagar, Chennai</p>
         </div>
-        <div>
-          <p class="p">
-            I am from Chennai. I am 17 years old.<br> My father's name is Narayanan, and he is a
-            painter<br> by profession. My hobby is drawing.<br> I finished 12th grade. Than I join fssa academy <br>because of financial problem, In the academy where I
-            learned <br>English, life skills, html, css, java sprite, poython and sql. <br>My short-term goal is to place a good IT company.<br>I am currently working for Qa(quality Assurance).
+        <div class="col-md-4">
+             
+ 
+              
+              <form action="https://api.web3forms.com/submit" method="POST" style="max-width: 400px; margin: auto;">
 
+                <input type="hidden" name="access_key" value="e905f867-922d-4ab8-93e3-5545580583d7">
 
+                <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
 
-          </p>
-        </div>
-      </div>
-      </div>
-      <div>
+                <input type="hidden" name="redirect" value="thank-you.html">
 
-        <!-- <h1>Why You Hire Me For your next project:</h1>
+            
+                <input type="text" name="name" required placeholder="Your Name" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+              
+          
+                <input type="email" name="email" required placeholder="Your Email" style="width: 100%; padding: 8px; margin-bottom: 10px;">
+              
+             
+                <textarea name="message" required placeholder="Your Message" style="width: 100%; padding: 8px; margin-bottom: 10px;"></textarea>
 
-          <div class="skills">
-            <div class="skill">
-              <h3>UI/UX Design</h3>
-              <p class="percentage">95%</p>
-              <div class="progress">
-                <div class="progress-bar" style="width: 90%"></div>
-              </div>
-            </div>
-            <div class="skill">
-              <h3>Web Development</h3>
-              <p class="percentage">60%</p>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  style="width: 60%; background-color: orange"
-                ></div>
-              </div>
-            </div>
-            <div class="skill">
-              <h3>Product Design</h3>
-              <p class="percentage">89%</p>
-              <div class="progress">
-                <div
-                  class="progress-bar"
-                  style="width: 89%; background-color: red"
-                ></div>
-              </div> -->
-
-      </div>
-      </div>
-      </div>
-    </section>
-
-    <section id="projects">
-      <div class="sub">
-        <h2>MY <span class="span12">PROJECT</span></h2>
-        <div class="blue">
-          <img src="assets/images/Screenshot (17).png " width="500" height="400" />
-          <img src="Screenshot (8).png" width="500" height="400" />
-          <img src="assets/Screenshot (20).png" width="500" height="400" />
+                <button type="submit" style="background-color: red; color: white; border: 2px solid red; padding: 10px 20px; border-radius: 5px;">
+                  Send Message
+                </button>
+              </form>
+              
 
 
         </div>
       </div>
-
-    </section>
-
-
-    <section id="Techskills">
-      <div class="sin">
-        <h1>TECH <span class="span12">SKILLS</span></h1>
-      </div>
-      <div class="skills">
-        <div>
-          <div class="skill">
-            <div class="contain">
-              <div class="skillname"><chan style="font-size: 22px; font-weight: 530;">HTML </chan></div>
-              <div><chan style="font-size: 18px; font-weight: 530;">Intermediate</chan></div>
-            </div>
-            <div class="percentage">80%</div>
-
-            <div class="progress">
-              <div class="progress-bar" style="width: 80%"></div>
-            </div>
-            <div style="display: flex;justify-content: space-around;">
-              <span style="font-size: 20px; font-weight: 520;">Beginner</span><span style="font-size: 20px; font-weight: 520;">Intermediate</span><span style="font-size: 20px; font-weight: 520;">Expert</span>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="contain">
-              <div class="skillname"><chan style="font-size: 22px; font-weight: 530;">CSS</chan></div>
-              <div><chan style="font-size: 18px; font-weight: 530;">Intermediate</chan></div>
-            </div>
-            <div class="percentage">65%</div>
-
-            <div class="progress">
-              <div class="progress-bar" style="width: 65%"></div>
-            </div>
-            <div style="display: flex;justify-content: space-around;">
-              <span style="font-size: 20px; font-weight: 520;">Beginner</span><span style="font-size: 20px; font-weight: 520;">Intermediate</span><span style="font-size: 20px; font-weight: 520;">Expert</span>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="contain">
-              <div class="skillname"><chan style="font-size: 22px; font-weight: 530;">JAVA SCRIPT</chan></div>
-              <div><chan style="font-size: 18px; font-weight: 530;">Intermediate</chan></div>
-            </div>
-            <div class="percentage">62%</div>
-
-            <div class="progress">
-              <div class="progress-bar" style="width: 62%"></div>
-            </div>
-            <div style="display: flex;justify-content: space-around;">
-              <span style="font-size: 20px; font-weight: 520;">Beginner</span><span style="font-size: 20px; font-weight: 520;">Intermediate</span><span style="font-size: 20px; font-weight: 520;">Expert</span>
-            </div>
-          </div>
-        </div>
-        <div>
-          <div class="skill">
-            <div class="contain">
-              <div class="skillname"><chan style="font-size: 22px; font-weight: 530;">MANUEL TESTING</chan></div>
-              <div><chan style="font-size: 18px; font-weight: 530;">Intermediate</chan></div>
-            </div>
-            <div class="percentage">62%</div>
-
-            <div class="progress">
-              <div class="progress-bar" style="width: 62%"></div>
-            </div>
-            <div style="display: flex;justify-content: space-around;">
-              <span style="font-size: 20px; font-weight: 520;">Beginner</span><span style="font-size: 20px; font-weight: 520;">Intermediate</span><span style="font-size: 20px; font-weight: 520;">Expert</span>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="contain">
-              <div class="skillname"><chan style="font-size: 22px; font-weight: 530;">PYTHON</chan> </div>
-              <div><chan style="font-size: 18px; font-weight: 530;">Intermediate</chan></div>
-            </div>
-            <div class="percentage">56%</div>
-
-            <div class="progress">
-              <div class="progress-bar" style="width: 56%">
-              </div>
-            </div>
-            <div style="display: flex;justify-content: space-around;">
-              <span style="font-size: 20px; font-weight: 520;">Beginner</span><span style="font-size: 20px; font-weight: 520;">Intermediate</span><span style="font-size: 20px; font-weight: 520;">Expert</span>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="contain">
-              <div class="skillname"><chan style="font-size: 22px; font-weight: 530;">SQL</chan></div>
-              <div><chan style="font-size: 18px; font-weight: 530;">Intermediate</chan></div>
-            </div>
-            <div class="percentage">52%</div>
-
-            <div class="progress">
-              <div class="progress-bar" style="width: 52%">
-              </div>
-            </div>
-            <div style="display: flex;justify-content: space-around; ">
-              <span style="font-size: 20px; font-weight: 520;">Beginner</span><span style="font-size: 20px; font-weight: 520;">Intermediate</span><span style="font-size: 20px; font-weight: 520;">Expert</span>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    <section id="Englishskills">
-
-      <h1 class="title">ENGLISH <span class="span12">SKILLS</span></h1>
-      <div class="bx-main">
-        <div class="sufu">
-          <img class="skillsImage" src="assets/images/specking download (2).png">
-          <div class="bx">
-            <h2>Speaking</h2>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-
-          </div>
-        </div>
-        <div class="sufu">
-          <img class="skillsImage" src="assets/images/listring download.jpg">
-
-          <div class="bx">
-            <h2>Listening</h2>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-          </div>
-        </div>
-      </div>
-      <div class="bx-main">
-
-        <div class="sufu">
-          <img class="skillsImage" src="assets/images/reading images.png">
-
-          <div class="bx">
-            <h2>Reading</h2>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-          </div>
-
-        </div>
-        <div class="bx-main">
-          <div class="sufu">
-            <img class="skillsImage" src="assets/images/writing img images.png">
-
-            <div class="bx">
-              <h2>writing</h2>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            </div>
-          </div>
-        </div>
-      </div>
-
-    </section>
-    <!-- <section id="#Englishskills">
-      <div class="container12">
-        <div>
-          <div>
-            <img class="skillsImage" src="assets/images/reading images.png">
-            <div>Reading</div>
-
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </div>
-          <div>
-            <img class="skillsImage" src="assets/images/specking download (2).png">
-            <div>Speaking</div>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </div>
-        </div>
-        <div>
-          <div>
-            <img class="skillsImage" src="assets/images/listring download.jpg">
-            <div>Listening
-
-            </div>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </div>
-          <div>
-            <img class="skillsImage" src="assets/images/writing img images.png">
-            <div>Writting
-
-            </div>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star checked"></span>
-            <span class="fa fa-star"></span>
-            <span class="fa fa-star"></span>
-          </div>
-        </div>
-      </div>
-
-    
-    </section> -->
-
-
-    <section id="Lifeskills" style="padding-top:10%;">  
-
-      <h1 class="title">LIFE <span class="span12">SKILLS</span></h1>
-      <div class="bx-main">
-        <div class="sufu">
-          <img class="skillsImage" src="assets/images/adaplapty download (2).png">
-          <div class="bx">
-            <h2>Adaptability & Continuous Learning</h2>
-            <div class="fun">
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-              <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            </div>
-          </div>
-        </div>
-        <div class="sufu">
-          <img class="skillsImage" src="assets/images/team work download.jpg">
-          <div class="bx">
-            <h2>Social work</h2>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-          </div>
-        </div>
-        <div class="sufu">
-          <img class="skillsImage" src="assets/images/self download.jpg">
-          <div class="bx">
-            <h2>Self Management & Self Awareness</h2>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-solid fa-star-half-stroke" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-            <i class="fa-regular fa-star" style="color: #FFD43B;"></i>
-          </div>
-        </div>
-      </div>
-
-    </section>
-  </main>
-  </section>
-  <footer>
-    <section id="contact">
-      <h1>CONTACT <span class="span12">INFO</span></h1>
-      <div id="fruit" style="margin-left:50px">
-
-
-        <div>
-
-
-          <div> <i class="fa-solid fa-phone tag"></i> T:+91 1234567890</div>
-          <div><i class="fa-brands fa-telegram tag"></i> E:vv2387656@gamil.com</div>
-          <div><i class="fa-solid fa-address-book tag"></i> A:Block C ,Global infocity park,40th St, Kodandarama
-            nagar,Chennai.</div>
-        </div>
-        <form action="https://api.web3forms.com/submit" method="POST" class="contact-form">
-          <input type="hidden" name="access_key" value="e905f867-922d-4ab8-93e3-5545580583d7">
-          <input type="text" name="name" required="" placeholder="Name">
-          <input type="email" name="email" required="" placeholder="Email">
-          <textarea name="message" required="" placeholder="Message"></textarea>
-          <input type="checkbox" name="botcheck" class="hidden" style="display: none;">
-          <button type="submit" class="btn">Submit Form</button>
-        </form>
-
-      </div>
-    </section>
-    <div class="cpy">
-      Copyright &copy; 2024-All rights reserved.
     </div>
+  </section>
 
-  </footer>
+  <!-- <footer class="bg-dark text-light text-center py-3">
+    <p>&copy; 2024 - All rights reserved.</p>
+  </footer> -->
+
+<footer style="background-color: #000; color: white; text-align: center; padding: 15px 0; font-size: 14px;">
+  © 2024 - All rights reserved.
+</footer>
+
+     
+ 
+  <script>
+      function toggleMenu() {
+    const navLinks = document.querySelector('.nav-links');
+    navLinks.classList.toggle('active');
+  }
+  </script> 
 </body>
 
 </html>
+
+
+
+
