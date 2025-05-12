@@ -3,7 +3,13 @@
     font-family: Arial, sans-serif;
   }
 
-  
+.span11{
+    margin-top: 1px;
+    display: flex;
+  padding-top: 6.5px;
+}
+
+    
 .nav-bar {
 position: fixed;
 top: 0;
@@ -25,10 +31,9 @@ font-weight: bold;
 }
 
 .nav-bar .span12 {
-color: red; /* Highlighted letter */
+color: red; 
 }
 
-/* Nav links */
 .nav-links {
 display: flex;
 gap: 20px;
@@ -43,10 +48,10 @@ transition: color 0.3s;
 }
 
 .nav-links li a:hover {
-color: #f39c12;
+color: #dc3545;
 }
 
-/* Hamburger Styles */
+
 .hamburger {
 display: none;
 flex-direction: column;
@@ -61,7 +66,7 @@ background-color: white;
 transition: 0.3s;
 }
 
-/* Responsive (Mobile) */
+
 @media (max-width: 768px) {
 .nav-links {
   position: absolute;
@@ -81,7 +86,7 @@ transition: 0.3s;
 .hamburger {
   display: flex;
 }
-}
+} 
 
 
   section {
